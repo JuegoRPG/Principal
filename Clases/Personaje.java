@@ -179,5 +179,30 @@ public class Personaje {
 
         }
     }
+        public boolean capacitado(int TipoArma) {
+        //Clases clases
+        boolean capa=false;
+        //TOFIX poner las clases para ver si pueden o no llevar el arma
+        switch (TipoArma) {
+            case 1:
+                if(TipoArma==1&&clase==1){
+                    capa=true;
+                }
+                break;
+            case 2:
+                if(TipoArma==1&&clase==1){
+                    capa=true;
+                }
+            case 3:
+                if(TipoArma==1&&clase==1){
+                    capa=true;
+                }
+            case 4:
+                if(TipoArma==1&&clase==1){
+                    capa=true;
+                }
+        }
+        return capa;
+    }
 
 }
